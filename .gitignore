@@ -1,0 +1,19 @@
+# Binário compilado
+vm
+vm.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+*.exe
+
+# Arquivos gerados por data/generate_data.py (reproduzíveis)
+data/BACKING_STORE.bin
+data/addresses_random.txt
+data/addresses_location.txt
+
+# Artefatos de IDE / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
